@@ -47,13 +47,16 @@ p {
 }
 
 .header {
-  padding: 24px 0;
+
   border-bottom: 1px solid #ECECEC;
+
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+
+
 }
 
 .logo-nav {
@@ -96,6 +99,8 @@ p {
 
 
 .list-nav {
+  display: block;
+  padding: 24px 0;
   color: var(--brand-text-color);
 
   font-weight: 500;
@@ -316,6 +321,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 
 .item-profesional {
@@ -324,6 +330,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
 }
 
 /* -----------------------Футер------------------------------- */
@@ -417,6 +424,11 @@ img {
   gap: 8px;
 }
 
+.section-company {
+  padding: 94px 0;
+}
+
+
 /* Фільтр портфоліо */
 .buttons.active {
   background-color: var(--tittle-buttom-color);
@@ -448,10 +460,7 @@ img {
 .sections-projects {
   display: flex;
   flex-wrap: wrap;
-
-
 }
-
 
 .projects {
   display: block;
