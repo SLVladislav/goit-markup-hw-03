@@ -243,6 +243,10 @@ p {
   line-height: 1.71;
 }
 
+.activities {
+  padding-bottom: 94px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -251,6 +255,7 @@ img {
 
 .list.img {
   display: flex;
+
 
 }
 
